@@ -94,6 +94,10 @@ body {
     padding-right: 125px;
 }
 
+.project {
+    margin-bottom: 90px;
+}
+
 .project__img {
     width: 1150px;
     height: 450px;
@@ -112,7 +116,6 @@ body {
 }
 
 .project__more {
-    margin-bottom: 90px;
     display: block;
     width: 127px;
     height: 27px;
@@ -145,16 +148,20 @@ body {
     background-color: rgb(173, 24, 24);
 }
 
-.black {
+.black__services {
     background-color: rgb(18, 18, 18);
+    padding-top: 151px;
+    padding-bottom: 150px;
 }
 
-.black__services {
-    padding-top: 151px;
-    padding-bottom: 30px;
+.service {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 60px;
 }
 
 .services__h2 {
+    margin-bottom: 34px;
     padding-left: 127px;
     width: 66px;
     height: 25px;
@@ -163,4 +170,25 @@ body {
     line-height: 25px;
     letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
+}
+
+.service__img {
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 270px;
+}
+
+.service__text {
+    margin-left: 3px;
+    width: 670px;
+    height: 41px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: rgb(255, 255, 255);
+}
+
+.service-last {
+    margin-bottom: 0px;
 }
