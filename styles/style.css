@@ -2,29 +2,45 @@ body {
     margin: 0 auto;
     font-family: Manrope, sans-serif;
     width: 1400px;
+    background-color: #F5F5F5;
+    font-weight: 400;
+}
+
+section {
+    padding-bottom: 150px;
     background-color: rgb(255, 255, 255);
+}
+
+.header__h1,
+.header__image-text,
+.heading-h2,
+.about-us__text,
+.service-link,
+.project__text,
+.project__more,
+.all-projects,
+.service__text,
+.forest-landscape__p {
+    letter-spacing: -0.03em;
 }
 
 .header {
     padding-top: 70px;
     padding-left: 125px;
     padding-right: 122px;
-    padding-bottom: 150px;
 }
 
 .header__h1 {
     width: 956px;
     height: 120px;
     font-size: 60px;
-    font-weight: 400;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: rgb(18, 18, 18);
     margin-bottom: 30px;
-    
 }
 
 .header__interior {
+    position: relative;
     width: 1150px;
     height: 500px;
     background-image: url(../resources/header-design.jpeg);
@@ -33,21 +49,19 @@ body {
 }
 
 .header__image-text {
+    position: absolute;
+    left: 37px;
+    bottom: 40px;
     width: 430px;
     height: 81px;
     font-size: 20px;
-    font-weight: 400;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
-    padding-top: 379px;
-    padding-left: 37px;
 }
 
 .about-us {
     padding-left: 125px;
     padding-right: 224px;
-    padding-bottom: 150px;
 }
 
 .heading-h2 {
@@ -55,9 +69,7 @@ body {
     width: 90px;
     height: 25px;
     font-size: 18px;
-    font-weight: 400;
     line-height: 25px;
-    letter-spacing: -0.03em;
     color: rgb(18, 18, 18);
 }
 
@@ -65,9 +77,7 @@ body {
     width: 1048px;
     height: 366px;
     font-size: 45px;
-    font-weight: 400;
     line-height: 61px;
-    letter-spacing: -0.03em;
     color: rgb(18, 18, 18);
     margin-bottom: 30px;
 }
@@ -81,7 +91,6 @@ body {
     background-color: rgb(173, 24, 24);
     text-align: center;
     font-size: 20px;
-    font-weight: 400;
     line-height: 67px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -89,7 +98,6 @@ body {
 }
 
 .projects {
-    padding-bottom: 150px;
     padding-left: 125px;
     padding-right: 125px;
 }
@@ -109,9 +117,7 @@ body {
     width: 542px;
     height: 41px;
     font-size: 30px;
-    font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: rgb(18, 18, 18);
 }
 
@@ -120,9 +126,7 @@ body {
     width: 127px;
     height: 27px;
     font-size: 20px;
-    font-weight: 400;
     line-height: 27px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     color: rgb(173, 24, 24);
 }
@@ -135,9 +139,7 @@ body {
     border-radius: 5px;
     text-align: center;
     font-size: 30px;
-    font-weight: 400;
     line-height: 153px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     color: rgb(173, 24, 24);
     cursor: pointer;
@@ -148,10 +150,9 @@ body {
     background-color: rgb(173, 24, 24);
 }
 
-.black__services {
+.services {
     background-color: rgb(18, 18, 18);
     padding-top: 151px;
-    padding-bottom: 150px;
 }
 
 .service {
@@ -160,15 +161,9 @@ body {
     margin-bottom: 60px;
 }
 
-.services__h2 {
+.white {
     margin-bottom: 34px;
     padding-left: 127px;
-    width: 66px;
-    height: 25px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
 }
 
@@ -183,9 +178,7 @@ body {
     width: 670px;
     height: 41px;
     font-size: 30px;
-    font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
 }
 
@@ -202,10 +195,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.forest-landscape__text {
-    
-}
-
 .forest-landscape__p {
     position: absolute;
     left: 125px;
@@ -214,8 +203,6 @@ body {
     width: 443px;
     height: 82;
     font-size: 30px;
-    font-weight: 400;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
 }
