@@ -11,6 +11,7 @@ section {
     background-color: rgb(255, 255, 255);
 }
 
+.navigation__link,
 .header__h1,
 .header__image-text,
 .heading-h2,
@@ -22,6 +23,67 @@ section {
 .service__text,
 .forest-landscape__p {
     letter-spacing: -0.03em;
+}
+
+.navigation {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 33px;
+    padding-left: 125px;
+    padding-right: 122px;
+    padding-bottom: 23px;
+}
+
+.navigation__logo {
+    display: inline-block;
+    padding-bottom: 3.76px;
+}
+
+.logo {
+    display: block;
+    margin-right: 483px;
+    margin-left: 3px;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.navigation__menu {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.navigation__link {
+    margin-left: 60px;
+    display: inline-block;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.navigation__link:hover,
+.navigation__link-active {
+    text-decoration: underline;
+    color: rgb(153, 153, 153);
+}
+
+.us {
+    width: 51px;
+}
+
+.prj {
+    width: 79px;
+}
+
+.srv {
+    width: 66px;
+
+}
+
+.cont {
+    width: 90px;
 }
 
 .header {
