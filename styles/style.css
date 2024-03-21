@@ -68,8 +68,7 @@ section {
     color: rgb(18, 18, 18);
 }
 
-.navigation__link:hover,
-.navigation__link-active {
+.navigation__link:hover {
     text-decoration: underline;
     color: rgb(153, 153, 153);
 }
@@ -260,7 +259,8 @@ section {
     width: 100%;
     height: 717px;
     background-image: url(../resources/forest-landscape.jpeg);
-    background-size: contain;
+    background-size: cover;
+    background-position: 50%;
     background-repeat: no-repeat;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -276,4 +276,34 @@ section {
     font-size: 30px;
     line-height: 41px;
     color: rgb(255, 255, 255);
+}
+
+.contacts {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.contacts__block {
+    margin-left: 125px;
+    position: relative;
+    width: 473px;
+    height: 260px;
+}
+
+.contacts__block::before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-image: url(/resources/icon-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contacts__h2 {
+    padding-top: 36px;
+    font-size: 18px;
+    line-height: 25px;
 }
