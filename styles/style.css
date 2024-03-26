@@ -26,7 +26,11 @@ section {
 .project__more,
 .all-projects,
 .service__text,
-.forest-landscape__p {
+.forest-landscape__p,
+.contacts__h2,
+.contacts__text,
+.footer__link,
+.footer__text {
     letter-spacing: -0.03em;
 }
 
@@ -325,4 +329,48 @@ section {
 .contacts__text:hover {
     text-decoration: underline;
     color: rgb(153, 153, 153);
+}
+
+.footer {
+    background-color: rgb(18, 18, 18);
+    height: 229px;
+}
+
+.footer__box {
+    margin: 0 auto;
+    margin-bottom: 87px;
+    width: 460px;
+}
+
+.footer__link {
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+    color: rgb(153, 153, 153);
+}
+
+.au {
+    padding-right: 53px;
+}
+
+.pr {
+    padding-right: 56px;
+}
+
+.sr {
+    padding-right: 55px;
+}
+
+.footer__text {
+    text-align: center;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
 }
