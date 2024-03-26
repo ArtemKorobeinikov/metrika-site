@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
     font-family: Manrope, sans-serif;
     width: 1400px;
-    background-color: #F5F5F5;
+    background-color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
@@ -286,7 +286,6 @@ section {
 .contacts__block {
     margin-left: 125px;
     position: relative;
-    width: 473px;
     height: 260px;
 }
 
@@ -306,4 +305,24 @@ section {
     padding-top: 36px;
     font-size: 18px;
     line-height: 25px;
+}
+
+.contacts__tel {
+    padding-top: 32px;
+}
+
+.contacts__mail {
+    padding-top: 30px;
+}
+
+.contacts__text {
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts__text:hover {
+    text-decoration: underline;
+    color: rgb(153, 153, 153);
 }
