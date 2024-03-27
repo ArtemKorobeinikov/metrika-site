@@ -14,19 +14,34 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="main">
+    <head>
+        <div class="navigation">
+            <div class="navigation__logo">
+                <a href="/">
+                    <img class="logo" src="resources/Metrika logo.png" alt="Логотип МЕТРИКА">
+                </a>
+            </div>
+            <div class="navigation__menu">
+                <a class="navigation__link us" href="#about-us">О НАС</a>
+                <a class="navigation__link prj" href="#projects">ПРОЕКТЫ</a>
+                <a class="navigation__link srv" href="#services">УСЛУГИ</a>
+                <a class="navigation__link cont" href="#contacts">КОНТАКТЫ</a>
+            </div>
+        </div>
+    </head>
+    <main>
         <section class="header">
             <h1 class="header__h1">Современные и стильные интерьеры для комфортной жизни</h1>
             <div class="header__interior">
                 <p class="header__image-text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
             </div>
         </section>
-        <section class="about-us">
+        <section id="about-us" class="about-us">
             <h2 class="heading-h2">О НАС</h2>
             <p class="about-us__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-            <a class="service-link" href="/">Посмотреть услуги</a>
+            <a class="service-link" href="#services">Посмотреть услуги</a>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2 class="heading-h2">ПРОЕКТЫ</h2>
             <ul>
                 <li class="project">
@@ -47,32 +62,56 @@
             </ul>
             <a class="all-projects" href="/">Смотреть все проекты</a>
         </section>
-        <section class="services">
-            <h2 class="heading-h2 white">УСЛУГИ</h2>
-            <ul>
-                <li class="service">
-                    <img class="service__img" src="resources/layout.jpeg" alt="Планировочное решение">
-                    <p class="service__text">Планировочное решение — от 2500₽/м²</p>
-                </li>
-                <li class="service">
-                    <img class="service__img" src="resources/design.jpeg" alt="Дизайн-проект">
-                    <p class="service__text">Дизайн-проект — от 3000₽/м²</p>
-                </li>
-                <li class="service">
-                    <img class="service__img" src="resources/supervision.jpeg" alt="Авторский надзор">
-                    <p class="service__text">Авторский надзор — от 30 000₽ в месяц</p>
-                </li>
-                <li class="service service-last">
-                    <img class="service__img" src="resources/equipment.jpeg" alt="Комплектация">
-                    <p class="service__text">Комплектация — 5% от стоимости спецификации</p>
-                </li>
-            </ul>
-        </section>
+        <div class="serv">
+            <section id="services" class="services">
+                <h2 class="heading-h2 white">УСЛУГИ</h2>
+                <ul>
+                    <li class="service">
+                        <img class="service__img" src="resources/layout.jpeg" alt="Планировочное решение">
+                        <p class="service__text">Планировочное решение — от 2500₽/м²</p>
+                    </li>
+                    <li class="service">
+                        <img class="service__img" src="resources/design.jpeg" alt="Дизайн-проект">
+                        <p class="service__text">Дизайн-проект — от 3000₽/м²</p>
+                    </li>
+                    <li class="service">
+                        <img class="service__img" src="resources/supervision.jpeg" alt="Авторский надзор">
+                        <p class="service__text">Авторский надзор — от 30 000₽ в месяц</p>
+                    </li>
+                    <li class="service service-last">
+                        <img class="service__img" src="resources/equipment.jpeg" alt="Комплектация">
+                        <p class="service__text">Комплектация — 5% от стоимости спецификации</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
         <section class="forest-landscape">
             <div class="forest-landscape__text">
-                <p class="forest-landscape__p">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+                <p class="forest-landscape__p">Проект Двухкомнотаной квартиры в ЖК Лесной Пейзаж</p>
             </div>
         </section>
-    </div>
+        <section id="contacts" class="contacts">
+            <div class="contacts__block">
+                <h2 class="contacts__h2">КОНТАКТЫ</h2>
+                <div class="contacts__tel">
+                    <a class="contacts__text" href="tel:+79358954535">+7 935 895-45-35</a>
+                </div>
+                <div class="contacts__mail">
+                    <a class="contacts__text" href="mailto:hello@mail.com">hello@mail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer__box">
+                <a class="footer__link au" href="#about-us">О НАС</a>
+                <a class="footer__link pr" href="#projects">ПРОЕКТЫ</a>
+                <a class="footer__link sr" href="#services">УСЛУГИ</a>
+                <a class="footer__link co" href="#contacts">КОНТАКТЫ</a>
+            </div>
+            <p class="footer__text">Студия дизайна интерьера Метрика - 2023</p>
+        </section>
+    </footer>
 </body>
 </html>
