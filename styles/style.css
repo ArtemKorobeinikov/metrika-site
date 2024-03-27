@@ -3,11 +3,10 @@ html {
 }
 
 body {
-    width: 1400px;
     margin: 0 auto;
-    font-family: Manrope, sans-serif;
-    background-size: cover;
+    width: 100%;
     background-color: rgb(255, 255, 255);
+    font-family: Manrope, sans-serif;
     font-weight: 400;
 }
 
@@ -37,6 +36,7 @@ section {
 
 .navigation {
     margin: 0 auto;
+    width: 1400px;
     background-color: rgb(255, 255, 255);
     padding-top: 33px;
     padding-left: 125px;
@@ -51,9 +51,9 @@ section {
 }
 
 .logo {
-    display: block;
     margin-right: 483px;
     margin-left: 3px;
+    display: block;
     width: 126.89px;
     height: 21.42px;
 }
@@ -98,18 +98,20 @@ section {
 }
 
 .header {
+    margin: 0 auto;
+    width: 1400px;
     padding-top: 70px;
     padding-left: 125px;
     padding-right: 122px;
 }
 
 .header__h1 {
+    margin-bottom: 30px;
     width: 956px;
     height: 120px;
     font-size: 60px;
     line-height: 60px;
-    color: rgb(18, 18, 18);
-    margin-bottom: 30px;
+    color: rgb(18, 18, 18);   
 }
 
 .header__interior {
@@ -133,6 +135,8 @@ section {
 }
 
 .about-us {
+    margin: 0 auto;
+    width: 1400px;
     padding-left: 125px;
     padding-right: 224px;
 }
@@ -171,6 +175,8 @@ section {
 }
 
 .projects {
+    margin: 0 auto;
+    width: 1400px;
     padding-left: 125px;
     padding-right: 125px;
     padding-bottom: 150px;
@@ -224,14 +230,19 @@ section {
     background-color: rgb(173, 24, 24);
 }
 
+.serv {
+    margin: 0 auto;
+    width: 1400px;
+}
+
 .services {
-    width: 100%;
     background-color: rgb(18, 18, 18);
     padding-top: 151px;
     padding-bottom: 150px;
 }
 
 .service {
+    margin: 0 auto;
     margin-left: 125px;
     margin-right: 125px;
     margin-bottom: 60px;
@@ -263,22 +274,23 @@ section {
 }
 
 .forest-landscape {
+    margin: 0;
     position: relative;
     width: 100%;
     height: 717px;
     background-image: url(../resources/forest-landscape.jpeg);
     background-size: cover;
-    background-position: 50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
 .forest-landscape__p {
+    margin: 0;
     position: absolute;
     left: 125px;
     bottom: 60px;
-    margin: 0;
     width: 443px;
     height: 82;
     font-size: 30px;
@@ -287,11 +299,14 @@ section {
 }
 
 .contacts {
+    margin: 0 auto;
+    width: 1400px;
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
 .contacts__block {
+    width: 1400px;
     margin-left: 125px;
     position: relative;
     height: 260px;
@@ -342,6 +357,7 @@ section {
 
 .footer__box {
     margin: 0 auto;
+    width: 100%;
     margin-bottom: 87px;
     width: 460px;
 }
